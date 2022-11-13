@@ -1,0 +1,27 @@
+body{
+    background-color: #0a0b0f;
+}
+#main-thing{
+    display: flex;
+    flex-flow: column;
+    height: 75%;
+}
+.view-area{
+    background-color: rgb(54, 55, 61);
+    min-height: 8em;
+    max-height: 10%;
+    min-width: 390px;
+    max-width: 400px;
+    border-radius: 5px;
+    align-self: center;
+}
+.output{
+    text-align: right;
+}
+.buttons{
+    display: flex;
+    flex-grow: 1;
+}
+.button{
+    flex: 0 25%;
+}
