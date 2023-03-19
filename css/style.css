@@ -84,7 +84,7 @@ code {
     background: #f8f9f9;
 }
 .editor{
-    background-color:  rgba(253, 253, 253, 1);
-    width: 20vh;
+    background-color:  rgb(253, 253, 253);
+    width: 30vh;
     border-radius: 5px;
 }

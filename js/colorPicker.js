@@ -3,47 +3,22 @@ const colorInput1 = document.querySelector('.colorPicker1');
 colorInput1.addEventListener('input', () => {
     color1.style.backgroundColor = colorInput1.value;
 })
+//query selector all not working.....using data classes does not work either
 const color2 = document.querySelector('[data-all-clear]');
-const color2_1 = document.querySelector('[data-delete]');
-const color2_2 = document.querySelector('[data-divide]');
-const color2_3 = document.querySelector('[data-multi]');
-const color2_4 = document.querySelector('[data-add]');
-const color2_5 = document.querySelector('[data-minus]');
-const color2_6 = document.querySelector('[data-one]');
-const color2_7 = document.querySelector('[data-two]');
-const color2_8 = document.querySelector('[data-three]');
-const color2_9 = document.querySelector('[data-four]');
-const color2_10 = document.querySelector('[data-five]');
-const color2_11 = document.querySelector('[data-six]');
-const color2_12 = document.querySelector('[data-seven]');
-const color2_13 = document.querySelector('[data-eight]');
-const color2_14 = document.querySelector('[data-nine]');
-const color2_15 = document.querySelector('[data-zero]');
+const color2_1 = document.querySelector('[data-number]');
+const color2_2 = document.querySelector('[data-operation]');
 const color2_16 = document.querySelector('[data-equals]');
-const color2_17 = document.querySelector('[data-number]');
 const color2_18 = document.querySelector('[data-point]');
 const colorInput2 = document.querySelector('.colorPicker2');
 colorInput2.addEventListener('input', () => {
     color2.style.backgroundColor = colorInput2.value;
     color2_1.style.backgroundColor = colorInput2.value;
     color2_2.style.backgroundColor = colorInput2.value;
-    color2_3.style.backgroundColor = colorInput2.value;
-    color2_4.style.backgroundColor = colorInput2.value;
-    color2_5.style.backgroundColor = colorInput2.value;
-    color2_6.style.backgroundColor = colorInput2.value;
-    color2_7.style.backgroundColor = colorInput2.value;
-    color2_8.style.backgroundColor = colorInput2.value;
-    color2_9.style.backgroundColor = colorInput2.value;
-    color2_10.style.backgroundColor = colorInput2.value;
-    color2_11.style.backgroundColor = colorInput2.value;
-    color2_12.style.backgroundColor = colorInput2.value;
-    color2_13.style.backgroundColor = colorInput2.value;
-    color2_14.style.backgroundColor = colorInput2.value;
-    color2_15.style.backgroundColor = colorInput2.value;
     color2_16.style.backgroundColor = colorInput2.value;
-    color2_17.style.backgroundColor = colorInput2.value;
     color2_18.style.backgroundColor = colorInput2.value;
 })
+
+
 const color3 = document.querySelector('.output');
 const colorInput3 = document.querySelector('.colorPicker3');
 colorInput3.addEventListener('input', () => {
